@@ -1,0 +1,9 @@
+default: &default
+  adapter: postgresql
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  host: localhost
+  
+development:
+  <<: *default
+  database: user_service_development
