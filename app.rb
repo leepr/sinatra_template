@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 require './config/environments'
-require './models/model'
+require './models'
 require 'haml'
 
 get '/hi' do

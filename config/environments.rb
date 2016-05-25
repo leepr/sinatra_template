@@ -1,4 +1,6 @@
-configure :production, :development do
+require 'sinatra' unless defined?(Sinatra)
+
+configure :production, :test, :development do
   db = URI.parse(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
   ActiveRecord::Base.establish_connection(

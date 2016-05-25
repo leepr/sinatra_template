@@ -5,3 +5,9 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'pg'
 gem 'haml'
+gem 'rake'
+
+group :test do
+  gem "rspec"
+  gem "rack-test"
+end
