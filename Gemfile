@@ -3,6 +3,7 @@ ruby "2.3.0"
 gem 'sinatra'
 gem 'activerecord'
 gem 'sinatra-activerecord'
+gem 'sinatra-contrib'
 gem 'pg'
 gem 'rake'
 
