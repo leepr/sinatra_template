@@ -8,11 +8,11 @@ To get started with this framework, use the following steps:
 
 2. Run `bundle install`
 
-3. Install Postgres and create a role "ruby_user" with a password of "password123".
+3. Install Postgres and create a role `ruby_user` with a password of `password123`.
 
-4. Run "rake db:migrate"
+4. Run `rake db:migrate`
 
 5. Run the server by running
-`ruby app.rb'
+`ruby app.rb`
 
-6. (optional) Run `rspec spec' to run the unit tests.
+6. (optional) Run `rspec spec` to run the unit tests.
