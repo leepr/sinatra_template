@@ -1,7 +1,5 @@
 **Sinatra Template (Sinatra + Postgres + Rspec)**
 
-Test 
-
 This template is a set of files to get started with the Sinatra framework.
 
 To get started with this framework, use the following steps:
